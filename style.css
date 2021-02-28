@@ -1,0 +1,17 @@
+h1,h2 {
+  font-family: sans-serif;
+  color: #ff0000;
+  text-align: center; 
+
+}
+h3 {
+  font-family: Arial, sans-serif;
+  color: #0132ff;
+  
+}
+
+body {
+  background-color: #ffffff;
+  margin: 0 auto;
+  max-width: 60em;
+}
