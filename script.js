@@ -1,6 +1,10 @@
-// Если нужно будет добавить какие-то скрипты, можно вставить их сюда.
-// Например, можно сделать, чтобы ссылки открывались в новой вкладке.
-const contactItems = document.querySelectorAll('.contact-item');
-contactItems.forEach(item => {
-    item.setAttribute('target', '_blank');
+// Ждем загрузки DOM
+document.addEventListener('DOMContentLoaded', () => {
+    // Находим все элементы с классом 'contact-item'
+    const contactItems = document.querySelectorAll('.contact-item');
+    
+    // Устанавливаем атрибут target для открытия в новой вкладке
+    contactItems.forEach(item => {
+        item.setAttribute('target', '_blank');
+    });
 });
